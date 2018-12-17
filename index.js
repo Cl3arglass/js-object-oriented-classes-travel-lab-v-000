@@ -28,7 +28,7 @@ class Route {
       ];
 
     let hz = (parseInt(eastWest.indexOf(this.endingLocation.horizontal)) + 1) - (parseInt(eastWest.indexOf(this.beginningLocation.horizontal)) + 1);
-    let vert = parseInt(this.endingLocation) - parseInt(this.beginningLocation)
+    let vert = parseInt(this.endingLocation.vertical) - parseInt(this.beginningLocation.vertical)
 
     return hz + vert;
    }
