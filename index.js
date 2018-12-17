@@ -37,9 +37,9 @@ class Route {
      let peak = bool
 
      if (peak) {
-       return blocksTravelled() / 2;
+       return this.blocksTravelled() / 2;
      } else {
-       return blocksTravelled() / 3;
+       return this.blocksTravelled() / 3;
      }
    }
 }
