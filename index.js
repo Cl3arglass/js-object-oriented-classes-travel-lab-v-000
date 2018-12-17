@@ -33,7 +33,13 @@ class Route {
     return hz + vert;
    }
 
-   estimatedTime() {
-     
+   estimatedTime(bool) {
+     let peak = bool
+
+     if (peak) {
+       return blocksTravelled() / 2;
+     } else {
+       return blocksTravelled() / 3;
+     }
    }
 }
