@@ -32,4 +32,8 @@ class Route {
 
     return hz + vert;
    }
+
+   estimatedTime() {
+     
+   }
 }
